@@ -1,12 +1,12 @@
 uses crt; 
 type 
-Tmatr=array[1..3,1..4]of real; 
-Tvector=array[1..3]of real; 
-const 
-A:tmatr= ((1,1,1,0), 
- (1,0,-1,0), 
- (1,2,1,0)); 
-B:Tvector= (6,-2,8); 
+Tmatr=array[1..3,1..4]of real;
+Tvector=array[1..3]of real;
+const
+A:tmatr= ((4.07,3.79,3.37,0),
+ (2.84,2.44,1.95,0),
+ (4.99,4.5,3.97,0));
+B:Tvector= (40.77,27.68,49.37);
 var 
 k,N:integer;
 Procedure vivod_matr(A1:Tmatr;N :integer); 
