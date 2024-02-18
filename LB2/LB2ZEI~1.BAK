@@ -1,4 +1,8 @@
-procedure Zeidel(var a:TMatr;var b:TVector;n:integer; step:integer); 
+const n = 3;
+const eps = 9;
+type TMatr = array[1..n,1..n] of real;
+type TVector = array[1..n] of real;
+procedure Zeidel(var a:TMatr;var b:TVector;n:integer; step:integer);
 var x0,x:TVector; 
  i,j,k:integer; 
  e:real; 
@@ -17,6 +21,6 @@ step:=0;
  x0[i]:=x[i]; 
  end; 
  inc(step); 
- until e<=eps; 
+ until e<=eps;
  b:=x0; 
-end;
+end.

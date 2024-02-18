@@ -34,5 +34,5 @@ For I:=1 To Nn Do
 				 		Bb[i]:=Bb[i]-Aa[i,j]*Bb[j]; 
 				 	End; 
 				 M1:End;
-				 Begin
-				 End.
+	Begin
+End.
